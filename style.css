@@ -1,0 +1,238 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,700;1,800&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "poppins", sans-serif;
+}
+body {
+  background-color: black;
+}
+.main {
+  background-image: url("images/TR-tr-20231120-popsignuptwoweeks-perspective_alpha_website_large.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: max(1200px, 100vw);
+  height: 644px;
+  position: relative;
+}
+.main .box {
+  height: 644px;
+  position: absolute;
+  top: 0;
+  width: 100%;
+  background-color: black;
+  opacity: 0.68;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 60vw;
+  height: 40px;
+  margin: auto;
+  height: 100px;
+}
+nav img {
+  z-index: 10;
+  position: relative;
+  width: 100px;
+}
+nav button {
+  position: relative;
+  z-index: 10;
+}
+.head-home {
+  height: calc(100% - 100px);
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  padding: 0 30px;
+  position: relative;
+}
+.head-home {
+  font-size: 20px;
+}
+.head-home .head-one {
+  font-size: 30px;
+  font-weight: bold;
+}
+.foot-top button {
+  background-color: rgba(248, 243, 243, 0.021);
+  font-size: 20px;
+  color: white;
+  border-radius: 7px;
+  padding: 3px 8px;
+  outline: none;
+  cursor: pointer;
+}
+.foot-top .btn-red {
+  background-color: red;
+}
+.foot-top .options {
+  border: 0.5px solid white;
+}
+.head-btn input {
+  font-size: 15px;
+  padding: 8px;
+  background-color: rgba(248, 243, 243, 0.021);
+  border: 0.5px solid white;
+  color: white;
+  border-radius: 4px;
+}
+.head-btn button {
+  background-color: red;
+  font-size: 20px;
+  padding: 5px;
+  color: white;
+  border-radius: 4px;
+}
+.seperation {
+  background-color: rgb(46, 44, 44);
+  height: 7px;
+  position: relative;
+  z-index: 20;
+}
+.first {
+  display: flex;
+  max-width: 70vw;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  margin: auto;
+}
+.secImg {
+  position: relative;
+}
+.secImg img {
+  width: 600px;
+  position: relative;
+  z-index: 10;
+}
+.secImg video {
+  position: absolute;
+  right: 0;
+  top: 51px;
+  width: 555px;
+}
+section.first > div {
+  display: flex;
+  flex-direction: column;
+  padding: 34px 0;
+}
+section.first > div :nth-child(1) {
+  font-size: 48px;
+  font-weight: bolder;
+}
+section.first > div :nth-child(2) {
+  font-size: 24px;
+}
+.change video {
+  width: 378px;
+  right: 125px;
+  top: 76px;
+}
+.third {
+  max-width: 80vw;
+}
+.fqa {
+  color: white;
+  padding: 34px;
+}
+.fqa h2 {
+  text-align: center;
+  font-size: 48px;
+}
+.fqabox {
+  display: flex;
+  justify-content: space-between;
+  background-color: #2d2d2d;
+  font-size: 24px;
+  padding: 24px;
+  max-width: 60vw;
+  margin: 34px auto;
+  cursor: pointer;
+  transition: all 1s ease-out;
+}
+.fqabox:hover {
+  background-color: #444444;
+}
+.general{
+    padding: 34px 0;
+    font-size: 20px;
+}
+.general-one a{
+    font-size: 14px;
+    color: white; 
+   
+}
+footer {
+  color: white;
+  max-width: 60vw;
+  margin: auto;
+  padding: 60px;
+  
+}
+.gen-small{
+    display: flex;
+    flex-direction: column;
+    gap: 23px;
+}
+
+.general-one{
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 23px;
+}
+@media screen and (max-width:1300px){
+  nav {
+    max-width: 90vw;
+  }
+  .head-home .head-one{
+    font-size: 25px;
+  }
+  .head-home{
+    font-size: 14px;
+  }
+  .first{
+    flex-wrap: wrap;
+    
+  }
+
+.secImg img{
+  width: 305px;
+}
+.secImg video {
+  width: 305px;
+}
+.change video {
+  width: 225px;
+  left: 90px;
+  
+}
+.change img {
+  width: 400px;
+}
+section.first > div :nth-child(1) {
+  font-size: 24px;
+}
+section.first > div :nth-child(2) {
+  font-size: 14px;
+}
+.fqa h2{
+  font-size: 30px;
+}
+.fqabox{
+  font-size: 18px;
+}
+.general-one{
+  grid-template-columns: 1fr 1fr;!important
+  gap: 15px;
+}
+
+
+
+}
